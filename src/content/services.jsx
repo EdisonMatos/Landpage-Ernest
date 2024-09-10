@@ -52,10 +52,15 @@ import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal1
 import harmonicServicesImg1 from "../assets/imgs/services/servicesHarmonicImg1.jpg";
 import harmonicServicesImg2 from "../assets/imgs/services/servicesHarmonicImg2.jpg";
 
-import moreHarmoServicesImg1 from "../assets/imgs/services/moreHarmoServicesImg1.jpg";
-import moreHarmoServicesImg2 from "../assets/imgs/services/moreHarmoServicesImg2.jpg";
-import moreHarmoServicesImg3 from "../assets/imgs/services/moreHarmoServicesImg3.jpg";
-import moreHarmoServicesImg4 from "../assets/imgs/services/moreHarmoServicesImg4.jpg";
+import moreDireitoServicesImg1 from "../assets/imgs/services/moreDireitoServicesImg1.png";
+import moreDireitoServicesImg2 from "../assets/imgs/services/moreDireitoServicesImg2.png";
+import moreDireitoServicesImg3 from "../assets/imgs/services/moreDireitoServicesImg3.png";
+import moreDireitoServicesImg4 from "../assets/imgs/services/moreDireitoServicesImg4.png";
+import moreDireitoServicesImg5 from "../assets/imgs/services/moreDireitoServicesImg5.png";
+import moreDireitoServicesImg6 from "../assets/imgs/services/moreDireitoServicesImg6.png";
+import moreDireitoServicesImg7 from "../assets/imgs/services/moreDireitoServicesImg7.png";
+import moreDireitoServicesImg8 from "../assets/imgs/services/moreDireitoServicesImg8.png";
+import moreDireitoServicesImg9 from "../assets/imgs/services/moreDireitoServicesImg9.png";
 
 import moreEsteticaServicesImg1 from "../assets/imgs/services/moreEsteticaServicesImg1.jpg";
 import moreEsteticaServicesImg2 from "../assets/imgs/services/moreEsteticaServicesImg2.jpg";
@@ -557,46 +562,119 @@ const services = {
         buttonLink: whatsappContactLink,
       },
     },
-    harmonizacao: {
-      label: "Harmonização Facial",
+    direito: {
+      label: "",
       service1: {
-        name: "Botox",
+        name: "Direito Empresarial",
         img: {
-          img: moreHarmoServicesImg1,
+          img: moreDireitoServicesImg1,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br /> Elaboração, revisão e negociação de contratos empresariais
+            diversos, como contratos de franquia, arrendamento mercantil,
+            alienação fiduciária em garantia, cessão fiduciária de créditos,
+            agenciamento, representação comercial, distribuição, compra e venda,
+            mútuo com ou sem conversibilidade em participação societária,
+            investidor-anjo, sociedade em conta de participação, e locação
+            comercial.
+            <br />
+            <br />
+            Assessoria e consultoria jurídica relacionada a títulos de crédito,
+            como cédulas de crédito bancário e debêntures. Consultoria sobre
+            marcas e patentes, envolvendo questões de registro, proteção e
+            gestão de direitos de propriedade intelectual. Assessoria em
+            operações no mercado de capitais, especialmente para empresas de
+            asset management e DTVMs, incluindo análise de viabilidade jurídica,
+            legal advisory, e emissão de opiniões legais conforme a legislação
+            do mercado de capitais. Elaboração de memorandos e legal opiniões
+            sobre a legislação aplicada a Fundos de Investimento e mercado de
+            capitais.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            Assessoria jurídica em processos de recuperação judicial,
+            extrajudicial e falências, com foco na preservação dos ativos e na
+            continuidade empresarial. Consultoria em resolução de conflitos
+            empresariais e societários, por meio de negociação, mediação,
+            processos judiciais e arbitragem.
+          </p>
+        ),
         buttonLink: whatsappContactLink,
       },
       service2: {
-        name: "Estimulador de colágeno",
+        name: "Direito Societário",
         img: {
-          img: moreHarmoServicesImg2,
+          img: moreDireitoServicesImg2,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "O estimulador de colágeno é um aliado poderoso na luta contra o envelhecimento, promovendo a renovação celular e a firmeza da pele.",
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
         buttonLink: whatsappContactLink,
       },
       service3: {
-        name: "Preenchedores Faciais",
+        name: "Reestruturação e Insolvência",
         img: {
-          img: moreHarmoServicesImg3,
+          img: moreDireitoServicesImg3,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "Os preenchedores faciais são uma excelente opção para quem deseja repor volume, suavizar rugas e linhas de expressão, e realçar os contornos faciais, proporcionando uma aparência mais jovem e revitalizada.",
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
         buttonLink: whatsappContactLink,
       },
       service4: {
-        name: "Lifting com Fios PDO",
+        name: "Recuperação de Crédito",
         img: {
-          img: moreHarmoServicesImg4,
+          img: moreDireitoServicesImg4,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "O lifting com fios PDO é uma técnica inovadora que promove o rejuvenescimento facial, estimulando a produção de colágeno e proporcionando um efeito lifting natural, sem a necessidade de cirurgia.",
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
+        buttonLink: whatsappContactLink,
+      },
+      service5: {
+        name: "Direito Tributário",
+        img: {
+          img: moreDireitoServicesImg5,
+        },
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
+        buttonLink: whatsappContactLink,
+      },
+      service6: {
+        name: "Direito Trabalhista",
+        img: {
+          img: moreDireitoServicesImg6,
+        },
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
+        buttonLink: whatsappContactLink,
+      },
+      service7: {
+        name: "Propriedade Intelectual",
+        img: {
+          img: moreDireitoServicesImg7,
+        },
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
+        buttonLink: whatsappContactLink,
+      },
+      service8: {
+        name: "Direito Consumidor",
+        img: {
+          img: moreDireitoServicesImg8,
+        },
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
+        buttonLink: whatsappContactLink,
+      },
+      service9: {
+        name: "Direito Imobiliário",
+        img: {
+          img: moreDireitoServicesImg9,
+        },
+        cardSubtitle: "EMPTY",
+        cardDescription: "EMPTY",
         buttonLink: whatsappContactLink,
       },
     },
