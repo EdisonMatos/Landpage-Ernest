@@ -258,9 +258,9 @@ const content = {
             <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
-        title: "Imobiliário e Propriedade Intelectual",
+        title: "Mais áreas de atuação",
         subtitle:
-          "Consultoria e proteção em transações imobiliárias e direitos autorais.",
+          "Explore todas as áreas em que a Ernest Bertola Advocacia pode oferecer suporte especializado.",
         description: (
           <div>
             A Definir <br />
