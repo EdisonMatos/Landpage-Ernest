@@ -15,8 +15,6 @@ import ServicesModal from "./ServicesModal";
 // import Icon4 from "../../assets/imgs/icons/icon4.png";
 
 export default function FeaturesWithIcons() {
-  
-
   return (
     <SectionArea id="service" className="squares">
       <SectionHeader
@@ -46,9 +44,9 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[40%]">
             <div
-              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
+              className="hidden desktop1:h-[730px] desktop3:h-[800px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
@@ -74,13 +72,13 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card4.svgIcon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
-              />
-              <ServicesModal />
+              >
+                <ServicesModal />
+              </IconFeatureCard>
             </MotionDivDownToUp>
           </div>
         </div>
       </SectionWrapper>
-      
     </SectionArea>
   );
 }
