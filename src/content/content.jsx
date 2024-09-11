@@ -260,7 +260,7 @@ const content = {
         ),
         title: "Mais áreas de atuação",
         subtitle:
-          "Explore todas as áreas em que a Ernest Bertola Advocacia pode oferecer suporte especializado.",
+          "Explore todas as áreas nas quais a Ernest Bertola Advocacia pode oferecer suporte especializado.",
         description: (
           <div>
             A Definir <br />
