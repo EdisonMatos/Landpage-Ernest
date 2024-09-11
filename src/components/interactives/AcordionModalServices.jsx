@@ -46,7 +46,7 @@ export default function AcordionModalServices() {
           id="panel1-header"
         >
           <Typography>
-            <h1 className="font-bold font-secondFont">Mais áreas de atuação:</h1>
+            <h1 className="font-bold font-secondFont">Entenda mais:</h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

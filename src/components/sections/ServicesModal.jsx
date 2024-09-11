@@ -1225,7 +1225,7 @@ const ServicesModal = () => {
       />
 
       <Dialog
-        header="Nossos Procedimentos"
+        header="Mais áreas de atuação"
         headerStyle={{ paddingBottom: "3px" }}
         visible={visible}
         onHide={() => setVisible(false)}
@@ -1236,7 +1236,7 @@ const ServicesModal = () => {
         <div className="flex flex-col w-full gap-[12px]">
           <div>
             <p className="text-paragraph4 font-secondFont">
-              Selecione a área que deseja saber mais sobre:
+              Selecione a área que deseja saber mais:
             </p>
           </div>
           <div className="flex justify-center w-full">
