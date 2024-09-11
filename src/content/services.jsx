@@ -778,7 +778,7 @@ const services = {
             legalidade de tributos.
             <br />
             <br />- Elaboração de relatórios gerenciais e sustentação oral
-            perante os Tribunais Superiores em Brasília
+            perante os Tribunais Superiores em Brasília.
           </p>
         ),
         buttonLink: whatsappContactLink,
