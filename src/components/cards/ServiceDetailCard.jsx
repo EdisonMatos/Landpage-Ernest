@@ -20,7 +20,7 @@ export default function ServiceDetailCard(props) {
           <h1 className="font-bold text-paragraph5 text-secondary opacity-70">{subtitle}</h1>
           <p className="text-paragraph3">{description}</p>
         </div>
-        <div className="">
+        <div className="hidden">
           <Button
             label={buttonLabel}
             icon={buttonIcon}
