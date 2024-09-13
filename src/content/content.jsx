@@ -117,7 +117,7 @@ const content = {
         ),
         title: "Empresarial e Tributário",
         subtitle:
-          "Estratégias jurídicas para compliance empresarial e otimização fiscal.",
+          "Elaboração, revisão e negociação de contratos empresariais diversos, como contratos de franquia, alienação fiduciária em garantia, entre outros.",
         description: (
           <div>
             A Definir <br />
@@ -162,9 +162,9 @@ const content = {
             <rect x="3" y="4" width="18" height="18" rx="2" />
           </svg>
         ),
-        title: "Família, Sucessão e Planejamento Patrimonial",
+        title: "Trabalhista",
         subtitle:
-          "Proteção e gestão eficiente dos bens familiares e sucessórios.",
+          "Assessoria em todas as questões trabalhistas, desde a estruturação de políticas de remuneração até a defesa em casos complexos.",
         description: (
           <div>
             A Definir <br />
@@ -210,9 +210,9 @@ const content = {
             <path d="M3 4h8" />
           </svg>
         ),
-        title: "Trabalhista e Consumidor",
+        title: "Consumidor",
         subtitle:
-          "Defesa dos direitos dos trabalhadores e consumidores com eficácia.",
+          "Consultoria em responsabilidade, práticas comerciais, e proteção contratual, e atuação em procedimentos administrativos e TACs.",
         description: (
           <div>
             A Definir <br />
@@ -258,9 +258,9 @@ const content = {
             <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
-        title: "Imobiliário e Propriedade Intelectual",
+        title: "Mais áreas de atuação",
         subtitle:
-          "Consultoria e proteção em transações imobiliárias e direitos autorais.",
+          "Explore todas as áreas nas quais a Ernest Bertola Advocacia pode oferecer suporte especializado.",
         description: (
           <div>
             A Definir <br />

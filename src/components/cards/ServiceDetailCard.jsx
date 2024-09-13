@@ -12,7 +12,7 @@ export default function ServiceDetailCard(props) {
           style={{
             backgroundImage: `url(${img})`,
           }}
-          className="w-[100%] h-[180px] phone2:h-[230px] phone3:h-[250px] desktop1:h-[300px] bg-no-repeat bg-top bg-cover"
+          className="w-[100%] h-[180px] phone2:h-[230px] phone3:h-[250px] tablet1:h-[400px] desktop1:h-[490px] bg-no-repeat bg-center bg-cover"
         />
       </div>
       <div className="flex flex-col gap-[32px]">
@@ -20,7 +20,7 @@ export default function ServiceDetailCard(props) {
           <h1 className="font-bold text-paragraph5 text-secondary opacity-70">{subtitle}</h1>
           <p className="text-paragraph3">{description}</p>
         </div>
-        <div className="">
+        <div className="hidden">
           <Button
             label={buttonLabel}
             icon={buttonIcon}

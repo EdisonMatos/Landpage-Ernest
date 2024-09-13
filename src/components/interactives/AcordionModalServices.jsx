@@ -46,7 +46,7 @@ export default function AcordionModalServices() {
           id="panel1-header"
         >
           <Typography>
-            <h1 className="font-bold font-secondFont">Harmonização Facial</h1>
+            <h1 className="font-bold font-secondFont">Entenda mais:</h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -54,21 +54,21 @@ export default function AcordionModalServices() {
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
               {/* Link 1 */}
               <ModalComponent
-                header={services.moreServices.harmonizacao.service1.name}
+                header={services.moreServices.direito.service1.name}
                 content={
                   <ServiceDetailCard
-                    img={services.moreServices.harmonizacao.service1.img.img}
+                    img={services.moreServices.direito.service1.img.img}
                     subtitle={
-                      services.moreServices.harmonizacao.service1.cardSubtitle
+                      services.moreServices.direito.service1.cardSubtitle
                     }
                     description={
-                      services.moreServices.harmonizacao.service1
+                      services.moreServices.direito.service1
                         .cardDescription
                     }
                     buttonLabel={services.moreServices.ctaButtons.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
-                      services.moreServices.harmonizacao.service1.buttonLink
+                      services.moreServices.direito.service1.buttonLink
                     }
                   />
                 }
@@ -76,27 +76,27 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {services.moreServices.harmonizacao.service1.name}
+                    {services.moreServices.direito.service1.name}
                   </span>
                 </button>
               </ModalComponent>
               {/* Link 2 */}
               <ModalComponent
-                header={services.moreServices.harmonizacao.service2.name}
+                header={services.moreServices.direito.service2.name}
                 content={
                   <ServiceDetailCard
-                    img={services.moreServices.harmonizacao.service2.img.img}
+                    img={services.moreServices.direito.service2.img.img}
                     subtitle={
-                      services.moreServices.harmonizacao.service2.cardSubtitle
+                      services.moreServices.direito.service2.cardSubtitle
                     }
                     description={
-                      services.moreServices.harmonizacao.service2
+                      services.moreServices.direito.service2
                         .cardDescription
                     }
                     buttonLabel={services.moreServices.ctaButtons.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
-                      services.moreServices.harmonizacao.service2.buttonLink
+                      services.moreServices.direito.service2.buttonLink
                     }
                   />
                 }
@@ -104,27 +104,27 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {services.moreServices.harmonizacao.service2.name}
+                    {services.moreServices.direito.service2.name}
                   </span>
                 </button>
               </ModalComponent>
               {/* Link 3 */}
               <ModalComponent
-                header={services.moreServices.harmonizacao.service3.name}
+                header={services.moreServices.direito.service3.name}
                 content={
                   <ServiceDetailCard
-                    img={services.moreServices.harmonizacao.service3.img.img}
+                    img={services.moreServices.direito.service3.img.img}
                     subtitle={
-                      services.moreServices.harmonizacao.service3.cardSubtitle
+                      services.moreServices.direito.service3.cardSubtitle
                     }
                     description={
-                      services.moreServices.harmonizacao.service3
+                      services.moreServices.direito.service3
                         .cardDescription
                     }
                     buttonLabel={services.moreServices.ctaButtons.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
-                      services.moreServices.harmonizacao.service3.buttonLink
+                      services.moreServices.direito.service3.buttonLink
                     }
                   />
                 }
@@ -132,27 +132,27 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {services.moreServices.harmonizacao.service3.name}
+                    {services.moreServices.direito.service3.name}
                   </span>
                 </button>
               </ModalComponent>
               {/* Link 4 */}
               <ModalComponent
-                header={services.moreServices.harmonizacao.service4.name}
+                header={services.moreServices.direito.service4.name}
                 content={
                   <ServiceDetailCard
-                    img={services.moreServices.harmonizacao.service4.img.img}
+                    img={services.moreServices.direito.service4.img.img}
                     subtitle={
-                      services.moreServices.harmonizacao.service4.cardSubtitle
+                      services.moreServices.direito.service4.cardSubtitle
                     }
                     description={
-                      services.moreServices.harmonizacao.service4
+                      services.moreServices.direito.service4
                         .cardDescription
                     }
                     buttonLabel={services.moreServices.ctaButtons.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
-                      services.moreServices.harmonizacao.service4.buttonLink
+                      services.moreServices.direito.service4.buttonLink
                     }
                   />
                 }
@@ -160,7 +160,152 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {services.moreServices.harmonizacao.service4.name}
+                    {services.moreServices.direito.service4.name}
+                  </span>
+                </button>
+              </ModalComponent>
+
+              {/*Link 5*/}
+              <ModalComponent
+                header={services.moreServices.direito.service5.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.direito.service5.img.img}
+                    subtitle={
+                      services.moreServices.direito.service5.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.direito.service5
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.direito.service5.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {services.moreServices.direito.service5.name}
+                  </span>
+                </button>
+              </ModalComponent>
+
+              {/*Link 6*/}
+              <ModalComponent
+                header={services.moreServices.direito.service6.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.direito.service6.img.img}
+                    subtitle={
+                      services.moreServices.direito.service6.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.direito.service6
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.direito.service6.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {services.moreServices.direito.service6.name}
+                  </span>
+                </button>
+              </ModalComponent>
+
+              {/*Link 7*/}
+              <ModalComponent
+                header={services.moreServices.direito.service7.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.direito.service7.img.img}
+                    subtitle={
+                      services.moreServices.direito.service7.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.direito.service7
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.direito.service7.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {services.moreServices.direito.service7.name}
+                  </span>
+                </button>
+              </ModalComponent>
+
+              {/*Link 8*/}
+              <ModalComponent
+                header={services.moreServices.direito.service8.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.direito.service8.img.img}
+                    subtitle={
+                      services.moreServices.direito.service8.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.direito.service8
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.direito.service8.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {services.moreServices.direito.service8.name}
+                  </span>
+                </button>
+              </ModalComponent>
+
+               {/*Link 9*/}
+               <ModalComponent
+                header={services.moreServices.direito.service9.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.direito.service9.img.img}
+                    subtitle={
+                      services.moreServices.direito.service9.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.direito.service9
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.direito.service9.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {services.moreServices.direito.service9.name}
                   </span>
                 </button>
               </ModalComponent>
@@ -170,7 +315,7 @@ export default function AcordionModalServices() {
       </Accordion>
 
       {/* Accordion 2 */}
-      <Accordion
+      {/* <Accordion
         className="mb-[3%]"
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
@@ -188,7 +333,7 @@ export default function AcordionModalServices() {
         <AccordionDetails>
           <Typography>
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
-              {/* Link 1 */}
+
               <ModalComponent
                 header={services.moreServices.estetica.service1.name}
                 content={
@@ -215,7 +360,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 2 */}
+
               <ModalComponent
                 header={services.moreServices.estetica.service2.name}
                 content={
@@ -242,7 +387,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 3 */}
+
               <ModalComponent
                 header={services.moreServices.estetica.service3.name}
                 content={
@@ -269,7 +414,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 4 */}
+
               <ModalComponent
                 header={services.moreServices.estetica.service4.name}
                 content={
@@ -299,10 +444,10 @@ export default function AcordionModalServices() {
             </p>
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       {/* Accordion 3 */}
-      <Accordion
+      {/* <Accordion
         className="mb-[3%]"
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
@@ -322,7 +467,7 @@ export default function AcordionModalServices() {
         <AccordionDetails>
           <Typography>
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
-              {/* Link 1 */}
+
               <ModalComponent
                 header={services.moreServices.reabilitacao.service1.name}
                 content={
@@ -350,7 +495,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 2 */}
+
               <ModalComponent
                 header={services.moreServices.reabilitacao.service2.name}
                 content={
@@ -378,7 +523,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 3 */}
+
               <ModalComponent
                 header={services.moreServices.reabilitacao.service3.name}
                 content={
@@ -409,10 +554,10 @@ export default function AcordionModalServices() {
             </p>
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       {/* Accordion 4 */}
-      <Accordion
+      {/* <Accordion
         className="mb-[3%]"
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
@@ -430,7 +575,7 @@ export default function AcordionModalServices() {
         <AccordionDetails>
           <Typography>
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
-              {/* Link 1 */}
+
               <ModalComponent
                 header={services.moreServices.pediatrica.service1.name}
                 content={
@@ -457,7 +602,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 2 */}
+
               <ModalComponent
                 header={services.moreServices.pediatrica.service2.name}
                 content={
@@ -484,7 +629,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 3 */}
+
               <ModalComponent
                 header={services.moreServices.pediatrica.service3.name}
                 content={
@@ -511,7 +656,7 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
-              {/* Link 4 */}
+
               <ModalComponent
                 header={services.moreServices.pediatrica.service4.name}
                 content={
@@ -541,7 +686,7 @@ export default function AcordionModalServices() {
             </p>
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
     </div>
   );
 }

@@ -52,10 +52,15 @@ import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal1
 import harmonicServicesImg1 from "../assets/imgs/services/servicesHarmonicImg1.jpg";
 import harmonicServicesImg2 from "../assets/imgs/services/servicesHarmonicImg2.jpg";
 
-import moreHarmoServicesImg1 from "../assets/imgs/services/moreHarmoServicesImg1.jpg";
-import moreHarmoServicesImg2 from "../assets/imgs/services/moreHarmoServicesImg2.jpg";
-import moreHarmoServicesImg3 from "../assets/imgs/services/moreHarmoServicesImg3.jpg";
-import moreHarmoServicesImg4 from "../assets/imgs/services/moreHarmoServicesImg4.jpg";
+import moreDireitoServicesImg1 from "../assets/imgs/services/moreDireitoServicesImg1.png";
+import moreDireitoServicesImg2 from "../assets/imgs/services/moreDireitoServicesImg2.png";
+import moreDireitoServicesImg3 from "../assets/imgs/services/moreDireitoServicesImg3.png";
+import moreDireitoServicesImg4 from "../assets/imgs/services/moreDireitoServicesImg4.png";
+import moreDireitoServicesImg5 from "../assets/imgs/services/moreDireitoServicesImg5.png";
+import moreDireitoServicesImg6 from "../assets/imgs/services/moreDireitoServicesImg6.png";
+import moreDireitoServicesImg7 from "../assets/imgs/services/moreDireitoServicesImg7.png";
+import moreDireitoServicesImg8 from "../assets/imgs/services/moreDireitoServicesImg8.png";
+import moreDireitoServicesImg9 from "../assets/imgs/services/moreDireitoServicesImg9.png";
 
 import moreEsteticaServicesImg1 from "../assets/imgs/services/moreEsteticaServicesImg1.jpg";
 import moreEsteticaServicesImg2 from "../assets/imgs/services/moreEsteticaServicesImg2.jpg";
@@ -557,46 +562,376 @@ const services = {
         buttonLink: whatsappContactLink,
       },
     },
-    harmonizacao: {
-      label: "Harmonização Facial",
+    direito: {
+      label: "",
       service1: {
-        name: "Botox",
+        name: "Direito Empresarial",
         img: {
-          img: moreHarmoServicesImg1,
+          img: moreDireitoServicesImg1,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Elaboração, revisão e negociação de contratos empresariais
+            diversos, como contratos de franquia, arrendamento mercantil,
+            alienação fiduciária em garantia, cessão fiduciária de créditos,
+            agenciamento, representação comercial, distribuição, compra e venda,
+            mútuo com ou sem conversibilidade em participação societária,
+            investidor-anjo, sociedade em conta de participação, e locação
+            comercial.
+            <br />
+            <br />
+            - Assessoria e consultoria jurídica relacionada a títulos de
+            crédito, como cédulas de crédito bancário e debêntures.
+            <br />
+            <br />
+            - Consultoria sobre marcas e patentes, envolvendo questões de
+            registro, proteção e gestão de direitos de propriedade intelectual.
+            <br />
+            <br />
+            - Assessoria em operações no mercado de capitais, especialmente para
+            empresas de asset management e DTVMs, incluindo análise de
+            viabilidade jurídica, legal advisory, e emissão de opiniões legais
+            conforme a legislação do mercado de capitais.
+            <br />
+            <br />
+            - Elaboração de memorandos e legal opiniões sobre a legislação
+            aplicada a Fundos de Investimento e mercado de capitais.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            - Assessoria jurídica em processos de recuperação judicial,
+            extrajudicial e falências, com foco na preservação dos ativos e na
+            continuidade empresarial.
+            <br />
+            <br />- Consultoria em resolução de conflitos empresariais e
+            societários, por meio de negociação, mediação, processos judiciais e
+            arbitragem.
+          </p>
+        ),
         buttonLink: whatsappContactLink,
       },
       service2: {
-        name: "Estimulador de colágeno",
+        name: "Direito Societário",
         img: {
-          img: moreHarmoServicesImg2,
+          img: moreDireitoServicesImg2,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "O estimulador de colágeno é um aliado poderoso na luta contra o envelhecimento, promovendo a renovação celular e a firmeza da pele.",
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo: </strong>
+            <br />
+            - Constituição de sociedades e elaboração de atos societários.
+            <br />
+            <br />
+            - Planejamento estratégico visando maximizar a eficiência econômica,
+            minimizar riscos e otimizar a eficiência tributária.
+            <br />
+            <br />
+            - Negociação e elaboração de instrumentos jurídicos para operações
+            de M&A, desde contratos preliminares até contratos definitivos de
+            fechamento da operação.
+            <br />
+            <br />
+            - Planejamento patrimonial e sucessório com foco em eficiência
+            tributária. Assessoria a membros de órgãos de administração de
+            companhias, fornecendo consultoria sobre aspectos jurídicos, riscos
+            e governança corporativa.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            - Análise de viabilidade jurídica e identificação de riscos em
+            operações de M&A, através da verificação de documentos, certidões e
+            histórico reputacional das partes.
+            <br />
+            <br />
+            - Resolução de disputas empresariais por mediação, arbitragem ou
+            litígios judiciais.
+            <br />
+            <br />
+            - Negociação e elaboração de Acordo de Acionistas/Sócios conforme
+            necessário.
+            <br />
+            <br />- Assessoria em alienações de estabelecimentos comerciais e
+            ativos, e implementação de reorganizações societárias.
+          </p>
+        ),
         buttonLink: whatsappContactLink,
       },
       service3: {
-        name: "Preenchedores Faciais",
+        name: "Reestruturação e Insolvência",
         img: {
-          img: moreHarmoServicesImg3,
+          img: moreDireitoServicesImg3,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "Os preenchedores faciais são uma excelente opção para quem deseja repor volume, suavizar rugas e linhas de expressão, e realçar os contornos faciais, proporcionando uma aparência mais jovem e revitalizada.",
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Soluções personalizadas para incorporadoras imobiliárias e
+            construtoras em crise, utilizando estratégias baseadas na Lei de
+            Condomínios e Incorporações.
+            <br />
+            <br />
+            - Consultoria jurídica completa em negociações, mediação, processos
+            de reestruturação de dívidas, recuperação judicial e extrajudicial.
+            <br />
+            <br />
+            - Pareceres estratégicos e assessoria sobre a Lei nº 11.101, de 9 de
+            fevereiro de 2005, e a Lei nº 14.112, de 24 de dezembro de 2020.
+            <br />
+            <br />
+            - Consultoria para produtores rurais no uso de mecanismos de
+            reestruturação de dívidas, com enfoque na preservação das atividades
+            produtivas.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            - Representação de credores em processos de recuperação judicial e
+            falência, com a constituição de garantias, impugnação de planos de
+            recuperação, e execução paralela de coobrigados.
+            <br />
+            <br />
+            - Assessoria contínua para devedores em pré-insolvência, visando à
+            preservação patrimonial e reestruturação de dívidas.
+            <br />
+            <br />
+            - Negociação de quitações parciais ou totais para empresários,
+            preservando os bons ativos e protegendo o patrimônio pessoal.
+            <br />
+            <br />- Representação dos credores e identificação de oportunidades
+            de captação de recursos, aquisição e venda de ativos.
+          </p>
+        ),
         buttonLink: whatsappContactLink,
       },
       service4: {
-        name: "Lifting com Fios PDO",
+        name: "Recuperação de Crédito",
         img: {
-          img: moreHarmoServicesImg4,
+          img: moreDireitoServicesImg4,
         },
-        cardSubtitle: "Sobre o procedimento:",
-        cardDescription:
-          "O lifting com fios PDO é uma técnica inovadora que promove o rejuvenescimento facial, estimulando a produção de colágeno e proporcionando um efeito lifting natural, sem a necessidade de cirurgia.",
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Atendimento especializado para a criação de estratégias
+            personalizadas para recuperação de crédito, incluindo cobrança
+            extrajudicial e medidas coercitivas atípicas.
+            <br />
+            <br />
+            - Utilização de ferramentas avançadas para localização de devedores
+            e busca de bens, potencializando a recuperação de créditos. Foco em
+            soluções negociadas e eficazes, visando minimizar desgastes e
+            maximizar resultados financeiros para os clientes.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />- Recuperação de crédito em diversas carteiras (comercial,
+            veículos, imobiliária, agronegócio, recuperação judicial e
+            falência).
+          </p>
+        ),
+        buttonLink: whatsappContactLink,
+      },
+      service5: {
+        name: "Direito Tributário",
+        img: {
+          img: moreDireitoServicesImg5,
+        },
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Assessoria em interpretação e aplicação de normas tributárias
+            federais, estaduais e municipais para pessoas físicas e jurídicas.
+            <br />
+            <br />
+            - Consultas de interpretação da legislação tributária e elaboração
+            de pareceres legais.
+            <br />
+            <br />
+            - Consultoria em planejamento tributário, incluindo análise de
+            questões tributárias, prevenção de riscos de autuação, e obtenção de
+            benefícios fiscais.
+            <br />
+            <br />
+            - Apoio no planejamento patrimonial e sucessório, e assessoria em
+            transações, incluindo due diligence tributária e estruturação
+            eficiente de negócios.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            - Defesa em autuações fiscais e patrocínio de processos
+            administrativos e judiciais em todas as instâncias.
+            <br />
+            <br />
+            - Propositura de ações declaratória e anulatória de débito fiscal e
+            mandado de segurança, e questionamento da constitucionalidade ou
+            legalidade de tributos.
+            <br />
+            <br />- Elaboração de relatórios gerenciais e sustentação oral
+            perante os Tribunais Superiores em Brasília.
+          </p>
+        ),
+        buttonLink: whatsappContactLink,
+      },
+      service6: {
+        name: "Direito Trabalhista",
+        img: {
+          img: moreDireitoServicesImg6,
+        },
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Assessoria em todas as questões trabalhistas, desde a estruturação
+            de políticas de remuneração até a defesa em casos complexos.
+            <br />
+            <br />
+            - Análise de riscos e elaboração de estratégias para mitigá-los, com
+            enfoque multidisciplinar.
+            <br />
+            <br />
+            - Implementação de medidas de reestruturação, negociação sindical, e
+            preparação de estratégias para ações judiciais e administrativas.
+            <br />
+            <br />
+            - Apoio na contratação e destituição de empregados, elaboração de
+            contratos trabalhistas, e negociação coletiva.
+            <br />
+            <br />
+            - Consultoria em políticas internas, planos de incentivo, e
+            contratação internacional de empregados expatriados.
+            <br />
+            <br />
+            - Gestão estratégica de conflitos e negociações coletivas, e
+            elaboração de relatórios gerenciais e workshops.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />- Defesa em reclamações trabalhistas, ações civis públicas, e
+            processos administrativos decorrentes de fiscalização do MPT e SRTE.
+          </p>
+        ),
+        buttonLink: whatsappContactLink,
+      },
+      service7: {
+        name: "Propriedade Intelectual",
+        img: {
+          img: moreDireitoServicesImg7,
+        },
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Proteção de marcas, patentes, direitos autorais, e outros bens
+            intangíveis, com consultoria em disputas judiciais e
+            administrativas.
+            <br />
+            <br />
+            - Registro de marcas, patentes, desenhos industriais, software e
+            direitos autorais no Brasil e no exterior, através de parcerias com
+            escritórios internacionais.
+            <br />
+            <br />
+            - Consultoria em contratos de cessão e licenciamento de direitos de
+            propriedade intelectual.
+            <br />
+            <br />
+            - Assessoria em disputas relacionadas à publicidade, internet,
+            software, e proteção de dados, além de questões relacionadas ao
+            INPI.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />- Elaboração e negociação de contratos e resolução de
+            conflitos envolvendo nomes de domínio e outros ativos de propriedade
+            intelectual.
+          </p>
+        ),
+        buttonLink: whatsappContactLink,
+      },
+      service8: {
+        name: "Direito Consumidor",
+        img: {
+          img: moreDireitoServicesImg8,
+        },
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Consultoria em responsabilidade, práticas comerciais, e proteção
+            contratual, e atuação em procedimentos administrativos e TACs.
+            <br />
+            <br />
+            - Revisão de sites, aplicativos, políticas comerciais, contratos de
+            consumo, e políticas de SAC.
+            <br />
+            <br />
+            - Consultoria especializada em superendividamento conforme a *Lei nº
+            14.181, de 1º de julho de 2021*, que trata da prevenção e do
+            tratamento do superendividamento do consumidor.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            - Representação em ações individuais e coletivas, incluindo ações
+            civis públicas de alta complexidade.
+            <br />
+            <br />- Gestão de recalls, com análise de cabimento e procedimentos
+            decorrentes, e elaboração de teses de defesa para processos de
+            massa.
+          </p>
+        ),
+        buttonLink: whatsappContactLink,
+      },
+      service9: {
+        name: "Direito Imobiliário",
+        img: {
+          img: moreDireitoServicesImg9,
+        },
+        cardSubtitle: "",
+        cardDescription: (
+          <p>
+            <strong>Consultivo:</strong>
+            <br />
+            - Estruturação de transações imobiliárias, incluindo governança e
+            investimentos para imóveis urbanos e rurais.
+            <br />
+            <br />
+            - Consultoria administrativa em processos notariais, registrais e
+            regulatórios perante órgãos como INCRA, Iphaan, e Prefeituras
+            Municipais.
+            <br />
+            <br />
+            - Elaboração de contratos de compra e venda, locação, arrendamento,
+            e constituição de garantias imobiliárias.
+            <br />
+            <br />
+            - Consultoria em regularização fundiária e usucapião.
+            <br />
+            <br />
+            <strong>Contencioso:</strong>
+            <br />
+            - Resolução de disputas relacionadas a imóveis, com atuação em todas
+            as instâncias.
+            <br />
+            <br />- Assessoria em projetos de incorporação imobiliária,
+            construção, e financiamento de empreendimentos, com foco em
+            segurança jurídica e maximização de resultados.
+          </p>
+        ),
         buttonLink: whatsappContactLink,
       },
     },
