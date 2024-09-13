@@ -44,7 +44,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[40%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <div
               className="hidden desktop1:h-[730px] desktop2:h-[770px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
               style={{
