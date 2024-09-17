@@ -11,7 +11,7 @@ import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
