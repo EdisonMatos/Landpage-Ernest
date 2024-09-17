@@ -1,8 +1,8 @@
 import links from "./links";
 import infos from "./infos";
 
-import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/solidLogo.png";
+import logo from "../assets/imgs/logo/logo.webp";
+import solidLogo from "../assets/imgs/logo/solidLogo.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
