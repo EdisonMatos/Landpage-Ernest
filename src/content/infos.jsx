@@ -1,7 +1,7 @@
 const infos = {
   name: "Dr. Ernest Bertola",
   slogan: "",
-  phone: "(43) 99606-3794",
+  phone: "(43) 99101-8449",
   mail: "contato@ernestbertola-adv.com",
   footerInfos: {
     endereco: (
@@ -15,7 +15,7 @@ const infos = {
       <p>
         Horário de expediente:
         <br />
-        Segunda a sábado
+        Segunda a sexta
         <br />
         Das 09h às 18h
         <br />
