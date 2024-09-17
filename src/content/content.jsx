@@ -59,7 +59,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EMPRESARIAL E CÍVEL EM LONDRINA - PR",
+      miniTag: "ADVOGADO EMPRESARIAL E CÍVEL",
       title: <h1 className="mb-[16px]">Compromisso em defender direitos</h1>,
       subtitle: "Soluções jurídicas personalizadas e dedicadas para cada caso.",
       ctaButtonText: "Entre em contato",
