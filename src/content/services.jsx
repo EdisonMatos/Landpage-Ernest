@@ -52,6 +52,8 @@ import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal1
 import harmonicServicesImg1 from "../assets/imgs/services/servicesHarmonicImg1.jpg";
 import harmonicServicesImg2 from "../assets/imgs/services/servicesHarmonicImg2.jpg";
 
+
+// imagens do modal da features
 import moreDireitoServicesImg1 from "../assets/imgs/services/moreDireitoServicesImg1.webp";
 import moreDireitoServicesImg2 from "../assets/imgs/services/moreDireitoServicesImg2.webp";
 import moreDireitoServicesImg3 from "../assets/imgs/services/moreDireitoServicesImg3.webp";
