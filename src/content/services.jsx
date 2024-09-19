@@ -52,15 +52,17 @@ import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal1
 import harmonicServicesImg1 from "../assets/imgs/services/servicesHarmonicImg1.jpg";
 import harmonicServicesImg2 from "../assets/imgs/services/servicesHarmonicImg2.jpg";
 
-import moreDireitoServicesImg1 from "../assets/imgs/services/moreDireitoServicesImg1.png";
-import moreDireitoServicesImg2 from "../assets/imgs/services/moreDireitoServicesImg2.png";
-import moreDireitoServicesImg3 from "../assets/imgs/services/moreDireitoServicesImg3.png";
-import moreDireitoServicesImg4 from "../assets/imgs/services/moreDireitoServicesImg4.png";
-import moreDireitoServicesImg5 from "../assets/imgs/services/moreDireitoServicesImg5.png";
-import moreDireitoServicesImg6 from "../assets/imgs/services/moreDireitoServicesImg6.png";
-import moreDireitoServicesImg7 from "../assets/imgs/services/moreDireitoServicesImg7.png";
-import moreDireitoServicesImg8 from "../assets/imgs/services/moreDireitoServicesImg8.png";
-import moreDireitoServicesImg9 from "../assets/imgs/services/moreDireitoServicesImg9.png";
+
+// imagens do modal da features
+import moreDireitoServicesImg1 from "../assets/imgs/services/moreDireitoServicesImg1.webp";
+import moreDireitoServicesImg2 from "../assets/imgs/services/moreDireitoServicesImg2.webp";
+import moreDireitoServicesImg3 from "../assets/imgs/services/moreDireitoServicesImg3.webp";
+import moreDireitoServicesImg4 from "../assets/imgs/services/moreDireitoServicesImg4.webp";
+import moreDireitoServicesImg5 from "../assets/imgs/services/moreDireitoServicesImg5.webp";
+import moreDireitoServicesImg6 from "../assets/imgs/services/moreDireitoServicesImg6.webp";
+import moreDireitoServicesImg7 from "../assets/imgs/services/moreDireitoServicesImg7.webp";
+import moreDireitoServicesImg8 from "../assets/imgs/services/moreDireitoServicesImg8.webp";
+import moreDireitoServicesImg9 from "../assets/imgs/services/moreDireitoServicesImg9.webp";
 
 import moreEsteticaServicesImg1 from "../assets/imgs/services/moreEsteticaServicesImg1.jpg";
 import moreEsteticaServicesImg2 from "../assets/imgs/services/moreEsteticaServicesImg2.jpg";
